@@ -1,4 +1,4 @@
-var broker = require('./restbroker.js');
+var broker = require('./restbroker');
 
 var controller = {
    'test': function(req, params, res) {
@@ -8,6 +8,7 @@ var controller = {
       res.text("hello: " + params.get('var1', 'unknown'));
    }
 }
+
 broker.addController(controller, "cont");
 
 broker.runServer("127.0.0.1", 8000);

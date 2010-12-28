@@ -1,0 +1,15 @@
+{ 
+   "name" : "pubsubd", 
+   "description" : "Distributed PubSub", 
+   "homepage" : "http://findingscience.com/pubsubd/", 
+   "version" : "0.0.0", 
+   "author" : "Brian Muller <bamuller@gmail.com>",
+   "contributors" : [], 
+   "repository" : { "type" : "git", "url" : "git://github.com/bmuller/pubsubd.git" }, 
+   "bugs" : { "mail" : "bamuller@gmail.com", "web" : "http://github.com/bmuller/pubsubd/issues" }, 
+   "directories" : { "doc" : "./doc", "lib" : "./lib" }, 
+   "engines" : { "node" : ">=0.2.0" }, 
+   "licenses" : [ { "type" : "GPL 3.0", "url" : "http://www.gnu.org/licenses/gpl-3.0.txt" } ], 
+   "main" : "./lib", 
+   "dependencies": {}
+}
