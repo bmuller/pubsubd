@@ -11,6 +11,6 @@
    "engines" : { "node" : ">=0.2.0" }, 
    "licenses" : [ { "type" : "GPL 3.0", "url" : "http://www.gnu.org/licenses/gpl-3.0.txt" } ], 
    "main" : "./lib", 
-   "bin" : { "publish" : "./bin/publish.js", "subscribe" : "./bin/subscribe.js" },
+   "bin" : { "publish" : "./bin/publish.js", "subscribe" : "./bin/subscribe.js", "pubsubd" : "./bin/pubsubd.js" },
    "dependencies": {}
 }
